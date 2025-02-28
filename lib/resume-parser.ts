@@ -5,7 +5,7 @@
  * In a production environment, this would use more sophisticated NLP techniques.
  */
 
-import { PDFExtract } from 'pdf-parse';
+import pdfParse from 'pdf-parse';
 
 // Define types for parsed resume data
 export interface ParsedResume {
