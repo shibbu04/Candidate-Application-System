@@ -269,7 +269,7 @@ function toast({ ...props }: ToastOptions) {
     toast: {
       ...props,
       id,
-      open: true,
+      // open: true,
       onOpenChange: (open) => {
         if (!open) dismiss();
       },
