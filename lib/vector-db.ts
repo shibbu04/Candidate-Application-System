@@ -12,7 +12,7 @@ import { generateEmbedding } from './embeddings';
 // Initialize Pinecone client
 const pinecone = new Pinecone({
   apiKey: process.env.PINECONE_API_KEY || '',
-  host: process.env.PINECONE_HOST || '', // Update this line
+  host: process.env.PINECONE_HOST || '',
 });
 
 const indexName = process.env.PINECONE_INDEX_NAME || 'candidate-index';
